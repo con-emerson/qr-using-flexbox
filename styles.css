@@ -15,13 +15,12 @@ body {
 
 .container {
     background-color: hsl(0, 0%, 100%);
-    width: 350px;
-    border-radius: 30px;
-    padding: 20px;
+    width: 330px;
+    border-radius: 20px;
+    padding: 15px;
 }
 
 .image-container {
-    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,9 +28,9 @@ body {
 
 .image-container img {
     width: 300px;
-    height: auto;
-    margin: 0 auto 30px auto;
-    border-radius: 20px;
+    height: 300px;
+    margin: 0 auto 10px;
+    border-radius: 10px;
 }
 
 h1, p {
@@ -39,6 +38,7 @@ h1, p {
     font-weight: 700;
     text-align: center;
     font-size: 25px;
+    color: hsl(218, 44%, 22%);
 }
 
 .paragraph {
